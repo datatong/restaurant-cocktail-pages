@@ -48,18 +48,18 @@ body {
     height: auto;
 }
 
-.menu-list > li > img {
-    width: 400px;
-    height: auto;
-}
-
 .menu-list > li {
     color: white;
     display: flex;
 }
 
-.menu-list > li > p{
-    color: white;
+.menu-list > li > img {
+    width: 400px;
+    height: auto;
+}
+
+.menu-list > li > div {
+    padding-left: 5%;
 }
 
 .contact-form {
