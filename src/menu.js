@@ -17,7 +17,7 @@ const createMenuPage = () => {
 
     const menuItem1 = document.createElement('li');
     const imageItem1 = document.createElement('img');
-    imageItem1.src = "![](/assets/img/old-fashioned.jpg";
+    imageItem1.src = "../assets/img/old-fashioned.jpg";
     const detailItem1 = document.createElement ('div');
     const nameItem1 = document.createElement('h3')
     nameItem1.textContent = "Old Fashioned";
