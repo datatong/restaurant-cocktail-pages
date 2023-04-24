@@ -1,0 +1,83 @@
+body {
+    background-image: url(/assets/bg/bar-background-4.jpg);
+}
+
+.tabs-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 1% 2% 1% 2%;
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+}
+
+.tab:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.page-content > img {
+    height: auto;
+    width: 900px;
+}
+
+.menu-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px 150px 25px 150px;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0;
+    width: 750px;
+    height: auto;
+}
+
+.menu-list > li > img {
+    width: 400px;
+    height: auto;
+}
+
+.menu-list > li {
+    color: white;
+    display: flex;
+}
+
+.menu-list > li > p{
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#custom-input {
+    height: 50px;
+    resize: none;
+}
+
+.contact-info-list {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight: bold;
+}
