@@ -22,7 +22,7 @@ const createRestaurantHomePage = () => {
 
     //create and append copy element
     const copy = document.createElement('h2');
-    copy.textContent = '"A place for tasty drinks and good vibes."'
+    copy.textContent = '"A place for tasty drinks and good vibes."';
     pageContent.appendChild(copy);
 
     //append page content (headline, image, and copy) to the content div
