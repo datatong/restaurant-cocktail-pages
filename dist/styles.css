@@ -5,6 +5,7 @@ body {
 .tabs-container {
     display: flex;
     justify-content: center;
+    color: gray;
 }
 
 .page-content {
@@ -12,10 +13,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: lightgray;
 }
 
 .tab {
-    border: 2px solid black;
+    border: 2px solid gray;
     border-radius: 5px;
     display: flex;
     justify-content: center;
