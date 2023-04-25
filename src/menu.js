@@ -17,7 +17,7 @@ const createMenuPage = () => {
 
     const menuItem1 = document.createElement('li');
     const imageItem1 = document.createElement('img');
-    imageItem1.src = "../assets/img/old-fashioned.jpg";
+    imageItem1.src = "https://drinkoteket.com/wp-content/uploads/old-fashioned-640x640.jpg";
     const detailItem1 = document.createElement ('div');
     const nameItem1 = document.createElement('h3')
     nameItem1.textContent = "Old Fashioned";
@@ -30,7 +30,7 @@ const createMenuPage = () => {
 
     const menuItem2 = document.createElement('li');
     const imageItem2 = document.createElement('img');
-    imageItem2.src = "../assets/img/tom-collins.webp";
+    imageItem2.src = "https://www.acouplecooks.com/wp-content/uploads/2019/12/Tom-Collins-001.jpg";
     const detailItem2 = document.createElement ('div');
     const nameItem2 = document.createElement('h3')
     nameItem2.textContent = "Tom Collins";
@@ -43,7 +43,7 @@ const createMenuPage = () => {
 
     const menuItem3 = document.createElement('li');
     const imageItem3 = document.createElement('img');
-    imageItem3.src = "../assets/img/lemon-drop.webp";
+    imageItem3.src = "https://mixthatdrink.com/wp-content/uploads/2016/03/lemon-drop-martini-735x1103.webp";
     const detailItem3 = document.createElement ('div');
     const nameItem3 = document.createElement('h3')
     nameItem3.textContent = "Lemon Drop";
@@ -56,7 +56,7 @@ const createMenuPage = () => {
 
     const menuItem4 = document.createElement('li');
     const imageItem4 = document.createElement('img');
-    imageItem4.src = "../assets/img/daiquiri.webp";
+    imageItem4.src = "https://winedharma.com/wine-dharma/uploads/2020/10/1593-daiquiri-cocktail-made-rum-lime-and-sugar-most-famous-cocktail-ever-made.jpg";
     const detailItem4 = document.createElement ('div');
     const nameItem4 = document.createElement('h3')
     nameItem4.textContent = "Daiquiri";

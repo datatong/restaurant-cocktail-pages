@@ -48,11 +48,11 @@ const createContactPage = () => {
     const contactInfoList = document.createElement('ul');
     contactInfoList.classList.add('contact-info-list');
     const hoursInfo = document.createElement('li');
-    hoursInfo.textContent = "Hours Infomation:";
+    hoursInfo.textContent = "Hours Infomation: TBA";
     const phoneInfo = document.createElement('li');
-    phoneInfo.textContent = "Phone Number:";
+    phoneInfo.textContent = "Phone Number: TBA";
     const addressInfo = document.createElement('li');
-    addressInfo.textContent = "Address Information:";
+    addressInfo.textContent = "Address Information: TBA";
 
     contactInfoList.appendChild(hoursInfo);
     contactInfoList.appendChild(phoneInfo);
