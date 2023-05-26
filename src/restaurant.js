@@ -9,21 +9,26 @@ const createRestaurantHomePage = () => {
     restaurantHeader.textContent = "THE THIRSTY HOUSE";
     pageContent.appendChild(restaurantHeader);
 
+    //additional styling
+    const contentDiv = document.createElement('div');
+    contentDiv.classList.add('content-div');
+    pageContent.appendChild(contentDiv);
+
     //create and append headline element
     const headLine = document.createElement('h2');
     headLine.textContent = "Crafted Cocktails To Satisfy!";
-    pageContent.appendChild(headLine);
+    contentDiv.appendChild(headLine);
 
     //create and append image element
     const image = document.createElement('img');
     image.src = "https://i0.wp.com/vintagecocktailclub.com/wp-content/uploads/2017/12/VCC-Interior-6.jpg?resize=1400%2C670&ssl=1";
     image.alt = "thirsy house bar";
-    pageContent.appendChild(image);
+    contentDiv.appendChild(image);
 
     //create and append copy element
     const copy = document.createElement('h2');
     copy.textContent = '"A place for tasty drinks and good vibes."';
-    pageContent.appendChild(copy);
+    contentDiv.appendChild(copy);
 
     //append page content (headline, image, and copy) to the content div
     content.appendChild(pageContent);

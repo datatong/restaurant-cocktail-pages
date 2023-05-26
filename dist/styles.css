@@ -16,6 +16,15 @@ body {
     color: lightgray;
 }
 
+.content-div {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+}
+
 .tab {
     border: 2px solid gray;
     border-radius: 5px;
@@ -31,7 +40,7 @@ body {
     background-color: lightgray;
 }
 
-.page-content > img {
+.content-div > img {
     height: auto;
     width: 900px;
 }
